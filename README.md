@@ -48,7 +48,9 @@ pip install numpy pandas
 4. **Train the Model**: The code will:
    - Load and preprocess the data.
    - Initialize and train the ElasticNet model using gradient descent.
-   - Compare the model’s performance against standard linear regression.
+   - Evaluate the model's performance.
+   - Compares the true and predicted values
+   - Plots the loss curvature.
 
 ### Example
 ```python
