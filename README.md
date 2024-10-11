@@ -43,7 +43,7 @@ pip install numpy pandas
 
 3. **Input Data**:
    - The notebook uses a dataset (`output.csv`). If you use a custom dataset, ensure it is loaded into a pandas DataFrame with numeric features and target values.
-   - Example dataset split is done with `train_test_split` to evaluate performance.
+
 
 4. **Train the Model**: The code will:
    - Load and preprocess the data.
@@ -80,7 +80,7 @@ The gradient descent method may be slow for large datasets. Improving the conver
 
 ## How to Run the Example:
 ### Load the Data:
-Ensure your dataset (`output1.csv`) is in the correct format: numerical data where all columns except the last are features, and the last column is the target.
+Ensure your dataset (`output.csv`) is in the correct format: numerical data where all columns except the last are features, and the last column is the target.
 
 ### Train the Model:
 The ElasticNet model is trained on your dataset using `fit(X, y)`.
